@@ -467,8 +467,12 @@ ol {
 .header-area .show-menu.active span:nth-child(2) {
     transform: scale(0);
 }
-
-
+.micheal-logo {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+}
 
 /* # About */
 .about-area {
