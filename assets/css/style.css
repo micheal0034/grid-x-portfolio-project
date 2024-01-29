@@ -103,6 +103,7 @@ a {
     margin-bottom: 24px;
 }
 
+
 ul,
 ol {
     list-style: none;
@@ -480,7 +481,7 @@ ol {
     position: relative;
     padding: 50px 46px;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start;+
     gap: 30px;
 }
 .about-area .about-me-box .img-box {
@@ -601,8 +602,9 @@ ol {
     color: #FFFFFF;
     opacity: 0.8;
     line-height: 25px;
-    margin: 0;
+    margin: 16px;
     font-size: 16px;
+    text-align: justify;
 }
 .about-area .about-edc-exp {
     padding: 30px;
