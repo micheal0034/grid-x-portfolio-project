@@ -484,6 +484,12 @@ ol {
     align-items: flex-start;
     gap: 30px;
 }
+.about-area .container .row .disappear {
+    display: none;
+}
+.about-area .container .about-me-wrap .disappear {
+    display: block;
+}
 .about-area .about-me-box .img-box {
     width: 224px;
     height: 224px;
@@ -1684,6 +1690,12 @@ ol {
         flex-direction: column;
         gap: 40px;
         align-items: center !important;
+    }
+    .about-area .container .row .disappear {
+        display: block;
+    }
+    .about-area .container .about-me-wrap .disappear {
+        display: none;
     }
     .project-details-wrap .project-infos-wrap {
         flex-direction: column;
