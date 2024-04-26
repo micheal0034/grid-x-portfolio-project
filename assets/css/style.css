@@ -698,7 +698,10 @@ ol {
     opacity: 1;
 }
 
-
+.projects-area .project-item .project-btn .btn {
+    width: 40px;
+    height: 40px;
+}
 
 /* # Project Details */
 .project-details-wrap .project-details-img {
@@ -841,7 +844,18 @@ ol {
     color: #0F0F0F;
 }
 
+.project-about-2 .left-details .stack {
+    padding-top: 40%;
+}
 
+.project-about-2 .left-details div {
+    margin-top: 10px;
+}
+
+.right-details li {
+    list-style: circle;
+    margin-block: 10px;
+}
 
 /* # Credentials */
 .credential-area {

@@ -42,42 +42,6 @@
             const subject = document.querySelector("#subject").value;
             const message = document.querySelector("#message").value;
 
-            const formData = {
-                "fullName": fullName,
-                "email": email,
-                "subject": subject,
-                "message": message
-            };
-
-            
-            // console.log("hey", formData)
-
-            try {
-                const response = await fetch("https://badger.kernelguardian.com/api/formdata", {
-                    method: "POST",
-                    mode: "no-cors",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify(formData)
-                });
-
-                if (response.ok) {
-                    const responseData = await response.json();
-                    // Handle success response here
-                    console.log("Success:", responseData);
-
-                    // Optionally, clear form fields after successful submission
-                    form.reset();
-                } else {
-                    // Handle error response here
-                    console.error("Error:", response.statusText);
-                }
-            } catch (error) {
-                console.error("Error:", error);
-            }
-        });
-    });
 
 </script>
 
@@ -172,7 +136,7 @@
                             <img src="./assets/images/bg1.png" alt="BG" class="bg-img">
                             <img src="./assets/images/icon3.png" alt="Icon">
                             <h1>Let’s work <span>together.</span></h1>
-                            <form method="POST" action="mailer.php">
+                            <form method="POST" action="https://formspree.io/f/mzbnyldg">
                                 <div class="alert alert-success messenger-box-contact__msg" style="display: none"
                                     role="alert">
                                     Your message was sent successfully.
